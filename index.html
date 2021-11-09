@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather App v.3</title>
+  </head>
+  <body>
+    <div class="weather-container">
+      <!-- First Container View Today Temp-->
+      <div class="view first-view">
+        <div class="current-temperature active-slide swiper-slide">
+          <div class="temperature-today">
+            <h2 class="temp"></h2>
+            <p class="locality"></p>
+          </div>
+          <!-- Temp Icon -->
+          <img class="icon-temp" src="./images/sunny.png" alt="" />
+        </div>
+      </div>
+
+      <!-- Second View -->
+      <div class="view second-view">
+        <div class="next-temperature-hours">
+          <div class="currentDay-hours">
+            <div class="hours-day">
+              <p class="daily-temp"></p>
+              <img class="ico" src="/images/001-cloud.png" alt="" id="icon" />
+              <p class="hourCurrent"></p>
+            </div>
+
+            <div class="hours-day">
+              <p class="daily-temp"></p>
+              <img class="ico" src="/images/001-cloud.png" alt="" />
+              <p class="hourCurrent"></p>
+            </div>
+
+            <div class="hours-day">
+              <p class="daily-temp"></p>
+              <img class="ico" src="/images/001-cloud.png" alt="" />
+              <p class="hourCurrent"></p>
+            </div>
+
+            <div class="hours-day">
+              <p class="daily-temp"></p>
+              <img class="ico" src="/images/001-cloud.png" alt="" />
+              <p class="hourCurrent"></p>
+            </div>
+
+            <div class="hours-day">
+              <p class="daily-temp"></p>
+              <img class="ico" src="/images/001-cloud.png" alt="" />
+              <p class="hourCurrent"></p>
+            </div>
+          </div>
+        </div>
+        <!-- Dots Slide -->
+        <div class="dots-slide">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+      <!-- Third View -->
+      <div class="view third-view">
+        <div class="next-temperature-hours">
+          <div class="currentDay-hours">
+            <div class="hours-day">
+              <p class="dayTemp">20°</p>
+              <img src="/images/001-cloud.png" alt="" class="icooo"/>
+              <p class="wee">Mon</p>
+            </div>
+
+            <div class="hours-day">
+              <p class="dayTemp">20°</p>
+              <img src="/images/001-cloud.png" alt="" class="icooo"/>
+              <p class="wee">Tue</p>
+            </div>
+
+            <div class="hours-day">
+              <p class="dayTemp">20°</p>
+              <img src="/images/001-cloud.png" alt="" class="icooo"/>
+              <p class="wee">Wed</p>
+            </div>
+
+            <div class="hours-day">
+              <p class="dayTemp">20°</p>
+              <img src="/images/001-cloud.png" alt="" class="icooo"/>
+              <p class="wee">Thu</p>
+            </div>
+
+            <div class="hours-day">
+              <p class="dayTemp">20°</p>
+              <img src="/images/001-cloud.png" alt="" class="icooo"/>
+              <p class="wee">Fri</p>
+            </div>
+          </div>
+        </div>
+        <!-- Dots Slide -->
+        <div class="dots-slide">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

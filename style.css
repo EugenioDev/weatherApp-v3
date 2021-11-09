@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #eee;
+}
+
+.weather-container {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  padding: 10px;
+  overflow: hidden;
+}
+.current-temperature {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* flex-direction: column; */
+}
+.temperature-today .temp {
+  font-size: 50px;
+}
+
+.temperature-today p {
+  font-size: 12px;
+}
+.view {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  margin-bottom: 10px;
+}
+
+.icon-temp {
+  width: 80px;
+  height: 80px;
+  opacity: 0.5;
+}
+.ico, .icooo {
+  width: 40px;
+  height: 40px;
+}
+.dots-slide {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+.dots-slide span {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  margin: 0px 3px;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+.dots-slide span:hover {
+  background-color: #000;
+}
+
+/* Second View */
+.currentDay-hours {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+.currentDay-hours .hours-day {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.hours-day p:first-child {
+  margin: 8px 0;
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.hours-day p:nth-of-type(2) {
+  margin: 5px 0;
+  font-weight: 400;
+}
+
+.hours-day p:nth-of-type(3) {
+  font-weight: 100;
+  font-size: 10px;
+}
+
+.slide {
+  transform: translate(-300px);
+}
