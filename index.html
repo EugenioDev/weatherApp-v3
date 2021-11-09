@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="glide.core.min.css" />
 
     <link rel="stylesheet" href="style.css" />
     <title>Weather App v.3</title>
@@ -22,92 +23,192 @@
         </div>
       </div>
 
+      <!-- <div class="glide">
+        <div class="glide__track" data-glide-el="track">
+          <ul class="glide__slides">
+            <li class="glide__slide">0</li>
+            <li class="glide__slide">1</li>
+            <li class="glide__slide">2</li>
+          </ul>
+        </div>
+      </div>
+ -->
+
       <!-- Second View -->
       <div class="view second-view">
         <div class="next-temperature-hours">
-          <div class="currentDay-hours">
-            <div class="hours-day">
-              <p class="daily-temp"></p>
-              <img class="ico" src="/images/001-cloud.png" alt="" id="icon" />
-              <p class="hourCurrent"></p>
-            </div>
+          <div class="glide">
+            <div class="glide__track" data-glide-el="track">
+              <div class="glide__slides">
+                <div class="currentDay-hours glide__slide">
+                  <div class="hours-day">
+                    <p class="daily-temp"></p>
+                    <img
+                      class="ico"
+                      src="/images/001-cloud.png"
+                      alt=""
+                      id="icon"
+                    />
+                    <p class="hourCurrent"></p>
+                  </div>
 
-            <div class="hours-day">
-              <p class="daily-temp"></p>
-              <img class="ico" src="/images/001-cloud.png" alt="" />
-              <p class="hourCurrent"></p>
-            </div>
+                  <div class="hours-day">
+                    <p class="daily-temp"></p>
+                    <img class="ico" src="/images/001-cloud.png" alt="" />
+                    <p class="hourCurrent"></p>
+                  </div>
 
-            <div class="hours-day">
-              <p class="daily-temp"></p>
-              <img class="ico" src="/images/001-cloud.png" alt="" />
-              <p class="hourCurrent"></p>
-            </div>
+                  <div class="hours-day">
+                    <p class="daily-temp"></p>
+                    <img class="ico" src="/images/001-cloud.png" alt="" />
+                    <p class="hourCurrent"></p>
+                  </div>
 
-            <div class="hours-day">
-              <p class="daily-temp"></p>
-              <img class="ico" src="/images/001-cloud.png" alt="" />
-              <p class="hourCurrent"></p>
-            </div>
+                  <div class="hours-day">
+                    <p class="daily-temp"></p>
+                    <img class="ico" src="/images/001-cloud.png" alt="" />
+                    <p class="hourCurrent"></p>
+                  </div>
 
-            <div class="hours-day">
-              <p class="daily-temp"></p>
-              <img class="ico" src="/images/001-cloud.png" alt="" />
-              <p class="hourCurrent"></p>
+                  <div class="hours-day">
+                    <p class="daily-temp"></p>
+                    <img class="ico" src="/images/001-cloud.png" alt="" />
+                    <p class="hourCurrent"></p>
+                  </div>
+                </div>
+
+                <div class="currentDay-hours glide__slide">
+                  <div class="hours-day">
+                    <p class="daily-temp"></p>
+                    <img
+                      class="ico"
+                      src="/images/001-cloud.png"
+                      alt=""
+                      id="icon"
+                    />
+                    <p class="hourCurrent"></p>
+                  </div>
+
+                  <div class="hours-day">
+                    <p class="daily-temp"></p>
+                    <img class="ico" src="/images/001-cloud.png" alt="" />
+                    <p class="hourCurrent"></p>
+                  </div>
+
+                  <div class="hours-day">
+                    <p class="daily-temp"></p>
+                    <img class="ico" src="/images/001-cloud.png" alt="" />
+                    <p class="hourCurrent"></p>
+                  </div>
+
+                  <div class="hours-day">
+                    <p class="daily-temp"></p>
+                    <img class="ico" src="/images/001-cloud.png" alt="" />
+                    <p class="hourCurrent"></p>
+                  </div>
+
+                  <div class="hours-day">
+                    <p class="daily-temp"></p>
+                    <img class="ico" src="/images/001-cloud.png" alt="" />
+                    <p class="hourCurrent"></p>
+                  </div>
+                </div>
+
+                <div class="currentDay-hours glide__slide">
+                  <div class="hours-day">
+                    <p class="daily-temp"></p>
+                    <img
+                      class="ico"
+                      src="/images/001-cloud.png"
+                      alt=""
+                      id="icon"
+                    />
+                    <p class="hourCurrent"></p>
+                  </div>
+
+                  <div class="hours-day">
+                    <p class="daily-temp"></p>
+                    <img class="ico" src="/images/001-cloud.png" alt="" />
+                    <p class="hourCurrent"></p>
+                  </div>
+
+                  <div class="hours-day">
+                    <p class="daily-temp"></p>
+                    <img class="ico" src="/images/001-cloud.png" alt="" />
+                    <p class="hourCurrent"></p>
+                  </div>
+
+                  <div class="hours-day">
+                    <p class="daily-temp"></p>
+                    <img class="ico" src="/images/001-cloud.png" alt="" />
+                    <p class="hourCurrent"></p>
+                  </div>
+
+                  <div class="hours-day">
+                    <p class="daily-temp"></p>
+                    <img class="ico" src="/images/001-cloud.png" alt="" />
+                    <p class="hourCurrent"></p>
+                  </div>
+                </div>
+              </div>
+              <!-- Dots -->
+              <div
+                class="glide__bullets dots-slide"
+                data-glide-el="controls[nav]"
+              >
+                <span class="glide__bullet" data-glide-dir="=0"></span>
+                <span class="glide__bullet" data-glide-dir="=1"></span>
+                <span class="glide__bullet" data-glide-dir="=2"></span>
+              </div>
             </div>
           </div>
-        </div>
-        <!-- Dots Slide -->
-        <div class="dots-slide">
-          <span></span>
-          <span></span>
-          <span></span>
         </div>
       </div>
 
       <!-- Third View -->
       <div class="view third-view">
         <div class="next-temperature-hours">
-          <div class="currentDay-hours">
-            <div class="hours-day">
-              <p class="dayTemp">20°</p>
-              <img src="/images/001-cloud.png" alt="" class="icooo"/>
-              <p class="wee">Mon</p>
-            </div>
+          <div class="glide">
+            <div class="glide__track" data-glide-el="track">
+              <div class="glide__slides">
+                <div class="currentDay-hours glide__slide">
+                  <div class="hours-day">
+                    <p class="dayTemp"></p>
+                    <img src="/images/001-cloud.png" alt="" class="icooo" />
+                    <p class="wee">Mon</p>
+                  </div>
 
-            <div class="hours-day">
-              <p class="dayTemp">20°</p>
-              <img src="/images/001-cloud.png" alt="" class="icooo"/>
-              <p class="wee">Tue</p>
-            </div>
+                  <div class="hours-day">
+                    <p class="dayTemp"></p>
+                    <img src="/images/001-cloud.png" alt="" class="icooo" />
+                    <p class="wee">Tue</p>
+                  </div>
 
-            <div class="hours-day">
-              <p class="dayTemp">20°</p>
-              <img src="/images/001-cloud.png" alt="" class="icooo"/>
-              <p class="wee">Wed</p>
-            </div>
+                  <div class="hours-day">
+                    <p class="dayTemp"></p>
+                    <img src="/images/001-cloud.png" alt="" class="icooo" />
+                    <p class="wee">Wed</p>
+                  </div>
 
-            <div class="hours-day">
-              <p class="dayTemp">20°</p>
-              <img src="/images/001-cloud.png" alt="" class="icooo"/>
-              <p class="wee">Thu</p>
-            </div>
+                  <div class="hours-day">
+                    <p class="dayTemp"></p>
+                    <img src="/images/001-cloud.png" alt="" class="icooo" />
+                    <p class="wee">Thu</p>
+                  </div>
 
-            <div class="hours-day">
-              <p class="dayTemp">20°</p>
-              <img src="/images/001-cloud.png" alt="" class="icooo"/>
-              <p class="wee">Fri</p>
+                  <div class="hours-day">
+                    <p class="dayTemp"></p>
+                    <img src="/images/001-cloud.png" alt="" class="icooo" />
+                    <p class="wee">Fri</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <!-- Dots Slide -->
-        <div class="dots-slide">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
       </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
     <script src="app.js"></script>
   </body>
 </html>
